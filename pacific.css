@@ -43,6 +43,8 @@ a:hover {
 
 nav a {
     text-decoration: none;
+	transition-delay: 3s;
+	transition-timing-function: ease-out;
 }
 
 h2 {
@@ -253,6 +255,96 @@ header, main,nav,footer,figure,figcaption,aside,section,article
         display: inline;
     }
     #desktop {
-        display: none;
+		display: none;}
+	}
+@media only screen and (max-width: 37.5em){#gallery{display: none;} }
+    .mobile-only {
+       display: block;
     }
+form {
+     width: auto;
+     padding: 10px;
+ }
+  label {
+     float: none;
+     clear: left;
+     display: block;
+     width: 120px;
+     padding-right: 10px;
+     margin-top: 10px;
+    text-align: left;
+ }
+ form input {
+     display: block;
+     margin-top: 10px;
+ }
+ 
+ textarea {
+     display: block;
+     margin-bottom: 20px;
+ }
+ 
+ input[type="submit"] {
+    margin-left: 0;
+ }
+video, embed {
+	float: right;
+	padding-left: 20px;
 }
+#gallery{position: relative;}
+#gallery {
+      position: relative;
+      height: 200px;
+  }
+ 
+  #gallery img {
+      float: none;
+      padding: 0;
+  }
+ 
+  #gallery ul {
+      width: 250px;
+      list-style-type: none;
+  }
+ 
+  #gallery li {
+      display: inline;
+      float: left;
+      padding: 10px;
+  }
+ 
+  #gallery a {
+      text-decoration: none;
+      color: #666666;
+      font-style: italic;
+  }
+ 
+  #gallery span {
+      display: none;
+  }
+ 
+  #gallery a:hover span {
+      display: block;
+      position: absolute;
+  }
+ 
+  #gallery a {
+      text-decoration: none;
+      color: #666666;
+      font-style: italic;
+  }
+ 
+  #gallery span {
+      display: none;
+  }
+ 
+  #gallery a:hover span {
+      display: block;
+      position: absolute;
+}
+
+  #placeholder {
+      position: absolute;
+      left: 320px;
+      top: 15px;
+  }

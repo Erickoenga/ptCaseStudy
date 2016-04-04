@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pacific Trails Resort :: Reservations</title>
+    <meta charset="utf-8">
+<meta name="Pacific Trails Resort" content="Find a resort near a coast">
+<meta name="Pacific Resort" content="HTML,CSS,XML,JavaScript">
+<meta name="Pacific Trails Resort" content="Find a resort near a coast">
+    <meta name="viewport" content="width-device-width,initial-scale=1.0">
+    <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"> </script>
+  <![endif]-->
+    <link rel="stylesheet" href="pacific.css" type="text/css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1 id="content">Pacific Trails Resort</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a> &nbsp;</li>
+                <li><a href="yurts.html">Yurts</a> &nbsp;</li>
+                <li><a href="activities.html">Activities</a> &nbsp; </li>
+                <li><a href="reservations.html">Reservations</a> &nbsp;</li>
+            </ul>
+        </nav>
+   <main>
+       <h2>Reservations at Pacific Trails</h2>
+       <h3>Contact Us Today!</h3><br>
+       Required fields are marked with an asterisk*
+         <form method="get">
+        <label for="myfName">*First Name:</label>
+        <input type="text" name="fName" id="myfName" required="required" maxlength="35" size="35">
+        <label for="mylName">*Last Name:</label>
+        <input type="text" name="lName" id="mylName" required="required" maxlength="35" size="35">
+        <label for="myemail">*Email:</label>
+        <input type="text" name="email" id="myemail" required="required" maxlength="35" size="35">
+        <label for="myphone"> Phone:</label>
+        <input type="number" id="myphone"><br>
+		<label for="date">Arrival Date:</label>
+		<input type="date" id="date"><br>
+		Nights:<input type="number" name="nights" min="1" max="14" id="nights">
+        <label for="mycomments">Comments:</label>
+        <textarea name="mycomments" id="mycomments" rows="2" cols="30"></textarea>
+        <br><br>
+        <input type="submit" value="Submit">
+        </form><br>
+	   <div id="contact"><span class="resort">Pacific Trails Resort</span>
+                <br/>12010 Pacific Trails Road
+                <br/>Zephyr, CA 95555
+                <br/>
+                <br/><a id="mobile" href="tel:888-555-5555">888-555-5555</a>
+                <span id="desktop">888-555-5555</span>
+            </div>
+    </main>
+        <footer>
+
+            <br/>
+            <br/> Copyright &copy; 2016 Pacific Trails Resort
+            <br/>
+            <a href="mailto:erick@mauti.com">erick@mauti.com</a>
+        </footer>
+    </div>
+</body>
+
+</html>
